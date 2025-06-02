@@ -7,29 +7,37 @@ This comprehensive tutorial is designed to take you from an experienced programm
 ### Getting Started
 1. Make sure you have Rust installed. If not, visit [rustup.rs](https://rustup.rs) to install it.
 2. Clone or download this repository to your local machine.
-3. Start with Module 1 and work your way through the modules sequentially.
+3. Start with module01_fundamentals and work your way through the modules sequentially.
 4. Each module has its own README.md with specific instructions.
 
 ### For Each Module
 1. Read the module's README.md for an overview and learning objectives.
 2. Study the explanations and examples in `src/main.rs`.
-3. Run the code using `cargo run` within the module directory.
+3. Run the code using `cargo run` within the module directory (e.g., `cd module01_fundamentals && cargo run`).
 4. Complete the exercises in `src/problems.rs`.
 5. Verify your understanding before moving to the next module.
 
 ### Directory Structure
 ```
 rust_tutorial/
-├── README.md           # This file
-├── module1/           # Rust Fundamentals
-│   ├── README.md      # Module-specific instructions
-│   ├── Cargo.toml     # Module dependencies
-│   └── src/           # Source code
-│       ├── main.rs    # Explanations and examples
-│       └── problems.rs # Exercises
-├── module2/           # Ownership and Memory Management
-...
-└── module12/          # Production Rust
+├── README.md                      # This file
+├── module01_fundamentals/         # Rust Fundamentals
+│   ├── README.md                  # Module-specific instructions
+│   ├── Cargo.toml                 # Module dependencies
+│   └── src/                       # Source code
+│       ├── main.rs                # Explanations and examples
+│       └── problems.rs            # Exercises
+├── module02_ownership/            # Ownership and Memory Management
+├── module03_type_system/          # Type System Deep Dive
+├── module04_collections/          # Collections and Error Handling
+├── module05_traits/               # Traits and Generics
+├── module06_testing/              # Testing and Documentation
+├── module07_concurrency/          # Concurrency and Parallelism
+├── module08_smart_pointers/       # Smart Pointers and Interior Mutability
+├── module09_pattern_matching/     # Advanced Pattern Matching
+├── module10_unsafe/               # Advanced Features and Unsafe Rust
+├── module11_tooling/              # Rust Tooling and Ecosystem
+└── module12_production/           # Production Rust
 ```
 
 ## Prerequisites
